@@ -1,4 +1,4 @@
-🛡️ Anti-Analysis & Evasion Technique Detector
+# 🛡️Anti-Analysis & Evasion Technique Detector
 
 A lightweight Python tool to scan binaries or text files for anti-analysis and evasion techniques used by malware.
 It detects strings and API calls commonly associated with:
