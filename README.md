@@ -24,23 +24,24 @@ It detects strings and API calls commonly associated with:
 ✅ CLI-based, fast, and easy to use
 
 📦 Installation
+```
 git clone https://github.com/yourusername/anti-analysis-detector.git
 cd anti-analysis-detector
-
-
+```
+```
 Requires Python 3.7+ (no external dependencies).
-
+```
 ⚡ Usage
 
 Run the script against a file:
-
+```
 python3 detect_evasion.py path/to/suspicious/file.exe
-
+```
 
 Example Output:
 
 === [+] Anti-Analysis & Evasion Checks [+] ===
-
+```
 [+] VM Indicators Detected:
     - VBox
     - vmtools
@@ -51,15 +52,15 @@ Example Output:
 
 [-] No Sandbox Evasion APIs found.
 [-] No User Interaction Checks found.
-
+```
 📚 Use Case
 
 This tool is useful for:
 
-Malware Analysts 🕵️
+- Malware Analysts 🕵️
 
-Reverse Engineers 🔬
+- Reverse Engineers 🔬
 
-Security Researchers 🛡️
+- Security Researchers 🛡️
 
-Threat Hunters 🔎
+- Threat Hunters 🔎
