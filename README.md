@@ -69,17 +69,17 @@ Windows: Install Wireshark
 
 Basic run:
 ```
-python3 main.py --pcap traffic.pcap
+python3 analyzer.py --pcap traffic.pcap
 ```
 
 Verbose mode (shows flow stats + detector errors if any):
 ```
-python3 main.py --pcap traffic.pcap --verbose
+python3 analyzer.py --pcap traffic.pcap --verbose
 ```
 
 Custom report directory:
 ```
-python3 main.py --pcap traffic.pcap --outdir my_reports
+python3 analyzer.py --pcap traffic.pcap --outdir my_reports
 ```
 📊 Example Output
 ```
@@ -131,6 +131,6 @@ Fork this repo
 
 Add new detection modules under detectors/
 
-Update main.py to call your detector
+Update analyzer.py to call your detector
 
 Submit a PR 🚀
