@@ -28,7 +28,7 @@ Currently, it supports detection for:
 ```
 📂 Project Structure
 network_analyzer/
-├── main.py                  # Entry point
+├── analyzer.py                  # Entry point
 ├── parsers/
 │   └── pcap_parser.py       # Packet → flow parser
 ├── storage/
